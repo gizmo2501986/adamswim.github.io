@@ -1,0 +1,15 @@
+#
+# Enable Apache mod_rewrite
+#
+RewriteEngine On
+#
+# Method limit
+#
+RewriteCond %{REQUEST_METHOD} !^(HEAD|GET|POST)$
+RewriteRule .* - [R=405,L]
+#
+# Redirect to HTTPS
+#
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^([a-z.]+)?adamswim\.pl [NC]
+RewriteRule ^(.*)$ https://adamswim.pl/$1 [R=301,L]

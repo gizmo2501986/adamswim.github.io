@@ -1,0 +1,85 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .header{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        z-index: 100;
+    }
+
+    .container{
+        
+        height: 100vh;
+        
+        background-image: url(img/cegla2.jpg);
+        background-size: cover;
+        background-position: top center;
+        background-position: 0px 40px;
+    }
+
+    
+        
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    .stronaglowna:hover
+    {
+        color: #f82298;;
+    }
+
+    .omnie:hover
+    {
+        color: #f82298;;
+    }
+
+    .kontakt:hover
+    {
+        color: #f82298;
+    }
+
+    .lipton:hover{
+        color: #f82298;
+        text-decoration: none;
+    }
+
+    .stronaglowna{
+        color: #d81e84;
+        text-decoration: none;
+    }
+
+    .omnie{
+        color: #d81e84;
+        text-decoration: none;
+    }
+
+    .kontakt{
+        color: #d81e84;
+        text-decoration: none;
+    }
+
+    .lipton{
+        color: #d81e84;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+

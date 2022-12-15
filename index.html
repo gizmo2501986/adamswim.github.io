@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Adam SWIM - Nauka Pływania Warszawa</title>
+	<meta name="description" content="Zapraszam na grupowe oraz indywidualne nauki pływania - Warszawa" />
+	<meta name="keywords" content="pływanie, plywanie, nauka pływania, swim, swimming, trening pływacki,
+	nauka plywania, AZS, AWF, AWF Warszawa, triathlon, open water, 
+	" />
+
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="stylesheet" href="plywanie2020.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175962495-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-175962495-1');
+	</script>
+
+
+
+</head>
+
+
+<body>
+
+	<div class="rbg">
+		<div class="header">
+			<ul class="header-link">
+				<li><a href="#container1" class="stronaglowna">strona główna</a></li>
+				<li><a href="#container2" class="cennik">lekcje</a></li>
+				<li><a href="#container-lokalizacja" class="stronaglowna">lokalizacja</a></li>
+				<li><a href="#container-kontakt" class="kontakt">kontakt</a></li>
+				<li><a href="#" class="lipton">o mnie</a></li>
+
+			</ul>
+
+		</div>
+	</div>
+
+	<div id="container1">
+
+		
+
+
+		<div class="logo2">
+			<div class="logo3">
+				<p class="AS">AS</p>
+			</div>
+			<div class="logo4">
+				<div class="poziomgora">
+					<div class="gora1">A</div>
+					<div class="gora2">D</div>
+					<div class="gora3">A</div>
+					<div class="gora4">M</div>
+				</div>
+
+				<div class="poziomdol">
+					<div class="dol1">S</div>
+					<div class="dol2">W</div>
+					<div class="dol3">I</div>
+					<div class="dol4">M</div>
+				</div>
+
+				
+			</div>
+		</div>
+
+
+	</div>
+
+	<div id="container2">
+
+
+
+		<div class="box1">
+
+			<div class="minibox1">
+				<p class="text555">Lekcje indywidualne</br>dorośli</p>
+			</div>
+			<div class="microbox1">
+				<p class="txtshow1">1 lekcja 60 minut 110 zł</p>
+				
+				<div class="button">
+					<p class="p6">kliknij</p>
+				</div>
+			</div>
+		</div>
+
+		<button class="zamykanie"></button>
+
+
+		<div class="box2">
+			
+				<div class="minibox1">
+					<p class="text555">Lekcje indywidualne</br>dzieci</p>
+				</div>
+				<div class="microbox1">
+					<p class="txtshow2">1 lekcja 60 minut 110 zł</p>
+					<p class="txtshow22">1 lekcja 30 minut 60 zł</p>
+
+					<div class="button">
+						<p class="p6">kliknij</p>
+					</div>
+				</div>
+			
+		</div>
+
+		<div class="box3">
+			
+			<div class="minibox1">
+				<p class="text555">Lekcje grupowe</p>
+			</div>
+			<div class="microbox1">
+				<p class="txtshow3">1 lekcja 60 minut 50 zł od osoby</p>
+				<p class="txtshow33">1 lekcja 30 minut 30 zł od osoby</p>
+				<div class="button">
+					<p class="p6">kliknij</p>
+				</div>
+			</div>
+		
+	</div>
+
+		
+	</div>
+
+
+
+
+
+
+
+
+<div id="container-lokalizacja">
+
+		<p class="text-lokalizacja">Zajęcia odbywają się na pływalni</br>
+			Inflancka 8, 00-189 Warszawa</p>
+
+
+
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 4</div>
+				<img src="inflancka/inf01.jpg" alt="basen Inflancka" style="width:100%">
+
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 4</div>
+				<img src="inflancka/inf02.jpg" alt="basen Inflancka" style="width:100%">
+
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 4</div>
+				<img src="inflancka/inf05.jpg" alt="basen Inflancka" style="width:100%">
+
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 4</div>
+				<img src="inflancka/inf06.jpg" alt="basen Inflancka" style="width:100%">
+
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br>
+
+
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				if (n > slides.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = slides.length }
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex - 1].style.display = "block";
+				dots[slideIndex - 1].className += " active";
+			}
+		</script>
+
+
+
+
+
+	</div>
+	
+
+	<div id="container-kontakt">
+		<div class="box-kontakt">
+			<p class="text-kontakt1">Adam Sawicki</p>
+			<p class="text-kontakt2">tel. 604-116-403</p>
+			<p class="text-kontakt3">NIP: 1132498859</p>
+			<p class="text-kontakt4">adam_sawicki@hotmail.com</p>
+
+
+
+
+		</div>
+	</div>
+
+
+
+
+	
+	<script src="java.js"></script>
+	
+
+
+
+
+</body>
+
+
+
+
+
+</html>
